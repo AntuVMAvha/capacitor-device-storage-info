@@ -1,9 +1,9 @@
 declare module "@capacitor/core" {
     interface PluginRegistry {
-        DeviceStorageInfo: DeviceStorageInfoPlugin;
+        DeviceStorageInfo: DeviceStorageInfo;
     }
 }
-export interface DeviceStorageInfoPlugin {
+export interface DeviceStorageInfo {
     echo(options: {
         value: string;
     }): Promise<{
